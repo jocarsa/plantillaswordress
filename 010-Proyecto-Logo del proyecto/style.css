@@ -1,0 +1,53 @@
+/*
+Theme Name: Jose Vicente Carratala
+Theme URI: https://wordpress.org/themes/josevicentecarratala/
+Author: Jose Vicente Carratala
+Author URI: https://jocarsa.com/
+Description: Plantilla desarrollada en clase para probar a crear plantillas de Wordpress.
+Requires at least: 5.9
+Tested up to: 6.2
+Requires PHP: 5.6
+Version: 1.4
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: josevicentecarratala
+Tags: one-column, custom-colors, custom-menu, custom-logo, editor-style, featured-images, full-site-editing, block-patterns, rtl-language-support, sticky-post, threaded-comments, accessibility-ready
+
+Jose Vicente Carratala WordPress Theme, (C) 2023 Jose Vicente Carratala
+Jose Vicente Carratala is distributed under the terms of the GNU GPL.
+*/
+body,html{
+    background:rgb(240,240,240);
+    font-family:sans-serif;
+    padding:0px;
+    margin:0px;
+}
+header{
+    text-align:center;
+    background:
+        url("img/blancotransparente.png"),
+        url("img/fondocabecera.jpg");
+    padding:100px;
+    background-size:cover;
+    background-position:center center;
+    border-bottom:5px solid white;
+    box-shadow:0px 10px 20px rgba(0,0,0,0.3);
+    position:relative;
+}
+h1,h2{
+    padding:0px;
+    margin:0px;
+}
+#logo{
+    width:100px;
+    height:100px;
+    position:absolute;
+    bottom:-55px;
+    left:50%;
+    margin-left:-50px;
+    border:5px solid white;
+    border-radius:200px;
+    background:url('img/logo.jpg');
+    background-size:cover;
+    box-shadow:0px 10px 20px rgba(0,0,0,0.3);
+}
